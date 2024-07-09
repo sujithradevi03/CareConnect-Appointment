@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/*****************NavBar*********************/
+
+#navbar{
+    top: 0;
+    left: 0;
+    padding: .5rem 5rem;
+    position: sticky;
+    background-color: rgb(207,248,248) !important;
+    z-index: 100;
+    box-shadow: 5px 5px 10px grey !important;
+    animation: nav 1s ease-in-out;
+}
+@keyframes nav{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+#navbar .navbar-brand{
+    font-size: 33px;
+    font-weight: 880;
+    color: green;
+}
+#navbar .navbar-brand:hover{
+    color: black !important;
+}
+#navbarSupportedContent .nav-link{
+    font-size: 19px;
+    font-weight: 780;
+    color: black !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent .nav-link:hover{
+    border-bottom: 2px solid ;
+    color: green !important;
+}
+#navbarSupportedContent .btn{
+    font-size: 16px;
+    font-weight: 680;
+    background-color:white !important;
+    color: green !important;
+    border-radius: 25px;
+}
+#navbarSupportedContent .btn:hover{
+    background-color: red !important;
+    color:black !important;
+}
+
+/***********Home********************/
+
+#Home{
+    padding-top: 180px;
+}
+#Home span{
+    color: green !important;
+    font-weight: 750;
+}
+#Home img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 5px 10px 10px grey !important;
+}
+#Home span:hover{
+    color: black !important;
+    font-weight: 750;
+}
+
+/**********************Review*************************/
+
+#section{
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#Review{
+    background-color: rgb(207,248,248);
+    background-size: cover;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-position: center;
+}
+#Review h1{
+    padding-top: 112px !important;
+    color: green;
+    border-bottom: 2px solid green !important;
+    font-size: 30px;
+    font-weight: 760;
+}
+#Review h5{
+    padding-bottom: 50px !important;
+}
+#Review .card{
+    height: auto;
+    width: 550px;
+    border-radius: 20px;
+}
+.card-container{
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 30px;
+    padding: .5rem 5rem;
+    justify-content: center;
+    gap: 20px !important;
+}
+
+/*****************Appointment****************/
+
+#Appointment{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 112px !important;
+    font-size: 30px;
+    font-weight: 760;
+}
+
+#Appointment h1{
+    color: green;
+    border-bottom: 2px solid green !important;
+    font-size: 30px;
+    font-weight: 760;
+}
+#Appointment h5{
+    padding-bottom: 50px !important;
+}
+#Appointment span{
+    color:green !important;
+    font-weight: 830;
+}
+#Appointment form{
+    padding-left: 22px;
+    width: 42rem;
+    height: 27rem;
+    background-color: rgb(207,248,248);
+    border-radius: 30px;
+}
+#Appointment .form-label{
+       font-size: 20px;
+       color: black;
+       font-weight: 220;
+       font-family: 'Times New Roman', Times, serif;
+}
+#Appointment button{
+    padding: .7rem 14rem;
+    margin-bottom: 70px !important;
+}
+#Appointment a{
+    font-size: 18px;
+    font-weight: 550;
+    background-color: rgb(207,248,248) !important;
+}
+#Message:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 5px 10px 10px grey !important;
+    background-color: green !important;
+    color: white !important;
+}
+/*********Security***************/
+
+#Security{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 112px;
+}
+#Security h1{
+    border-bottom: 2px solid green;
+    color: green;
+    font-size: 30px;
+    font-weight: 760;
+}
+#Security h5{
+    padding-bottom: 50px !important;
+}
+#Security .row{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(207,248,248);
+    background-size: cover;
+    background-position: center;
+}
+#Security .card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/****************Contact**********************/
+
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact .form-group input:focus,
+.contact .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact button.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact button.btn:hover {
+    background-color: #0056b3;
+}
