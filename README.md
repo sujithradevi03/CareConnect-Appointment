@@ -12,6 +12,9 @@ Care Connect is an intuitive and user-friendly appointment booking website for h
 - **Responsive Design:** Ensures the website is usable on various devices.
 - **Navigation Bar:** Easy access to different sections of the website.
 
+## Figma Design
+- click this link to view: https://www.figma.com/design/1YvhK0MBnem3XVHEPZ7lF2/Care-Connect--Appointment-page-Designing?node-id=0-1&t=OGKb93CavZo1n8DC-1
+
 ## Technologies Used
 
 - **HTML:** Structure of the web pages.
